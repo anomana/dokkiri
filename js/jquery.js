@@ -71,6 +71,6 @@ $(function(){
 
 $(document).on('click', function(e) {
   if (!$(e.target).closest('.mobile').length) {
-    $('.mobile').trigger('click');
+    $('.mobile, .header-list, #page_top').removeClass('show');
   }
 });
