@@ -66,14 +66,14 @@
   .main-info .contents {
     padding-left: 10px;
   }
-  #warnning {
+  #warning {
     height: 400px;
     width: 300px;
   }
-  #warnning .warnning-ttl h2 {
+  #warning .warning-ttl h2 {
     font-size: 30px;
   }
-  #warnning #time_limit {
+  #warning #time_limit {
     padding-top: 20px;
   }
 }

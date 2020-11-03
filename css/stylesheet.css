@@ -260,8 +260,8 @@ main {
 #page_top.show { /* ハンバーガーメニューがクリックされたら非表示 */
   display: none;
 }
-/* ---------- #warnning ---------- */
-#warnning {
+/* ---------- #warning ---------- */
+#warning {
   background-color: whitesmoke;
   position: fixed;
   top: 50%;
@@ -272,25 +272,25 @@ main {
   width: 500px;
   border: 1px solid darkgray;
 }
-#warnning .warnning-ttl {
+#warning .warning-ttl {
   background-color: crimson;
   padding: 15px 0;
   color: white;
   text-align: center;
 }
-#warnning .warnning-ttl h2 {
+#warning .warning-ttl h2 {
   font-size: 40px;
 }
-#warnning .warnning-contents {
+#warning .warning-contents {
   padding: 5px 10px;
 }
-#warnning .warnning-contents p {
+#warning .warning-contents p {
   padding-bottom: 5px;
 }
-#warnning .warnning-contents p span {
+#warning .warning-contents p span {
   color: crimson;
 }
-#warnning #time_limit {
+#warning #time_limit {
   text-align: center;
   padding-top: 40px;
   font-weight: bold;

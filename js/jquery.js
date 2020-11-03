@@ -28,15 +28,15 @@ $(function(){
     return false;
   });
 });
-// warnning
+// warning
 $(function(){
   var judje = 0;
-  var warnning = $('#warnning');
-  warnning.hide();
+  var warning = $('#warning');
+  warning.hide();
   $(window).scroll(function () {
     if ($(this).scrollTop() > 1000 && judje == 0) {
       judje = 1;
-      warnning.fadeIn();
+      warning.fadeIn();
       var sec = 0;
       var min = 5;
       var timer = setInterval(function() {
